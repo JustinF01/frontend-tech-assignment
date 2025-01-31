@@ -1,0 +1,11 @@
+.stage {
+    position: relative;
+    width: 990px;
+    height: 606px;
+    background: #296f85;
+    padding: 8px;
+    background: url("/public/Horizontal.png");
+    background-size: 763px 18px;
+    background-repeat: no-repeat;
+    background-position: 106px 242px;
+}

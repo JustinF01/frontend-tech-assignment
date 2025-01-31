@@ -81,7 +81,7 @@ const events = [
     eventName: { name: "", left: 0 },
     eventItems: [
       {
-        imageType: "home",
+        imageType: "retire",
         text: "Retire",
         top: 69,
         left: 720,

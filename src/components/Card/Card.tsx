@@ -4,6 +4,7 @@ import debt from "../../assets/debt.svg"
 import home from "../../assets/home.svg"
 import vision from "../../assets/vision.svg"
 import holiday from "../../assets/going-holiday.svg"
+import retire from "../../assets/retire.svg"
 import styles from "./card.module.css"
 
 const Card = ({
@@ -44,6 +45,9 @@ const Card = ({
       break
     case "holiday":
       imageSrc = holiday
+      break
+    case "retire":
+      imageSrc = retire
       break
     default:
       break

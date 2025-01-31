@@ -1,140 +1,124 @@
-.card {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: flex-start;
-    background: #173f4b;
-    width: 100%;
-    max-width: 130px;
-    height: auto;
-    min-height: 136px;
-    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.25);
-    border-radius: 5px;
-    padding: 8px;
-    box-sizing: border-box;
-}
-
 .text {
-    text-align: center;
-    margin-top: 10px;
-    font-size: 14px;
+  text-align: center;
+  margin-top: 10px;
+  font-size: 14px;
 }
 
 .cardtop {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: flex-start;
-    background: #173f4b;
-    width: 100%;
-    max-width: 130px;
-    height: auto;
-    min-height: 136px;
-    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.25);
-    border-radius: 5px;
-    padding: 8px;
-    box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  background: #173f4b;
+  width: 100%;
+  max-width: 130px;
+  height: auto;
+  min-height: 136px;
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.25);
+  border-radius: 5px;
+  padding: 8px;
+  box-sizing: border-box;
 }
 
 .cardtop::before {
-    position: absolute;
-    content: "";
-    display: block;
-    width: 14px;
-    height: 14px;
-    left: 55px;
-    top: -5px;
-    transform: rotate(45deg);
-    background: #173f4b;
+  position: absolute;
+  content: "";
+  display: block;
+  width: 14px;
+  height: 14px;
+  left: var(--pointTopPos);
+  top: -5px;
+  transform: rotate(45deg);
+  background: #173f4b;
 }
 
 .cardhighlight {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: flex-start;
-    background: #3c7f90;
-    width: 100%;
-    max-width: 130px;
-    height: auto;
-    min-height: 136px;
-    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.25);
-    border-radius: 5px;
-    padding: 8px;
-    box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  background: #3c7f90;
+  width: 100%;
+  max-width: 130px;
+  height: auto;
+  min-height: 136px;
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.25);
+  border-radius: 5px;
+  padding: 8px;
+  box-sizing: border-box;
 }
 
 .cardhighlight::before {
-    position: absolute;
-    content: "";
-    display: block;
-    width: 14px;
-    height: 14px;
-    left: 82px;
-    top: -7px;
-    transform: rotate(45deg);
-    background: #3c7f90;
+  position: absolute;
+  content: "";
+  display: block;
+  width: 14px;
+  height: 14px;
+  left: var(--pointHightlightPos);
+  top: -7px;
+  transform: rotate(45deg);
+  background: #3c7f90;
 }
 
 .cardbottom {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: flex-start;
-    background: #173f4b;
-    width: 100%;
-    max-width: 130px;
-    height: auto;
-    min-height: 136px;
-    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.25);
-    border-radius: 5px;
-    padding: 8px;
-    box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  background: #173f4b;
+  width: 100%;
+  max-width: 130px;
+  height: auto;
+  min-height: 136px;
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.25);
+  border-radius: 5px;
+  padding: 8px;
+  box-sizing: border-box;
 }
 
 .cardbottom::after {
-    position: absolute;
-    content: "";
-    display: block;
-    width: 14px;
-    height: 14px;
-    left: 55px;
-    bottom: 12px;
-    transform: rotate(45deg);
-    background: #173f4b;
+  position: absolute;
+  content: "";
+  display: block;
+  width: 14px;
+  height: 14px;
+  left: var(--pointBottomPos);
+  bottom: 12px;
+  transform: rotate(45deg);
+  background: #173f4b;
 }
 
 .indicatorTop {
-    position: relative;
-    top: -168px;
-    left: 62px;
-    transform: translateX(-50%);
-    background: #3c7f90;
-    width: 2px;
-    height: 16px;
-    border-radius: 4px;
-    z-index: inherit;
+  position: relative;
+  top: -168px;
+  left: var(--indicatorTopPos);
+  transform: translateX(-50%);
+  background: #3c7f90;
+  width: 2px;
+  height: 16px;
+  border-radius: 4px;
+  z-index: inherit;
 }
 
 .indicatorBottom {
-    position: relative;
-    bottom: -14px;
-    left: 62px;
-    transform: translateX(-50%);
-    background: #3c7f90;
-    width: 2px;
-    height: 16px;
-    border-radius: 4px;
+  position: relative;
+  bottom: -14px;
+  left: var(--indicatorBottomPos);
+  transform: translateX(-50%);
+  background: #3c7f90;
+  width: 2px;
+  height: 16px;
+  border-radius: 4px;
 }
 
 .indicatorhighlight {
-    position: relative;
-    top: -205px;
-    left: 88px;
-    transform: translateX(-50%);
-    background: #3c7f90;
-    width: 2px;
-    height: 16px;
-    border-radius: 4px;
-    z-index: inherit;
+  position: relative;
+  top: -205px;
+  left: var(--indicatorHightlightPos);
+  transform: translateX(-50%);
+  background: #3c7f90;
+  width: 2px;
+  height: 16px;
+  border-radius: 4px;
+  z-index: inherit;
 }
